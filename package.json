@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@bokken/npm-test": "1.0.0"
+    "@bokken/npm-test": "1.0.1"
   }
 }

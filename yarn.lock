@@ -5,10 +5,10 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@bokken/npm-test@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@bokken/npm-test@npm:1.0.0"
-  checksum: 0bf7b69b5ad6da062203b95c4c49ebfe633f1d868a3f1262a5866b3201c8986d4ddef41029c2ec9378ac99408eea9b44d86f412bf8088092c8b3c35135463278
+"@bokken/npm-test@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@bokken/npm-test@npm:1.0.1"
+  checksum: edb79c927d957048dadbeb38662c7559d6ee9d2b6d40c98942ca5f550f32f66e5dbaabab399da07c629022cea054679597ef8d85d30a5f89bf55da06933a6957
   languageName: node
   linkType: hard
 
@@ -16,6 +16,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-private-package-repro@workspace:."
   dependencies:
-    "@bokken/npm-test": 1.0.0
+    "@bokken/npm-test": 1.0.1
   languageName: unknown
   linkType: soft
