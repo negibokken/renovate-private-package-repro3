@@ -1,5 +1,15 @@
 {
-  "extends": [
-    "config:base"
-  ]
+    "extends": ["config:base"],
+    "hostRules": [
+        {
+            "matchHost": "https://registry.npmjs.org/",
+            "hostType": "npm",
+            "encrypted": {
+                "token": "wcFMA/xDdHCJBTolAQ/9GSm7DYG8j24kRrndB/F07b8fvnt8YbJOdT8e3IzW6s5Xb5IrysY4wwrNaGU8+mpr2E2epGdVWf4OdYH1Ynptk0LRoRh2VvFom20CtjnFEX/t6VA7yFYzYsPS+ZxBZ6MwRgEZPzfiTjD92DK5DIQZHa/9FVxaB7unMCFs3gzOuYR3M4jRCRcEZGgQrBfZxtYcoFJWsBSuLbp4Wk3+rVgjCUdsZjti5bIfSWB6Z75tOFLoVQW6unrZTBUGF9Wyvb2t/fWybgs5i3xoi/bL4httze2XgJkQ67+Twjj7uDhARG/TCV/L28Y+gKcaTM3sev9XUuam6eFGqi9zbzWXtI1N6rO+C1AHQX9Sd4iSPsOQA98i5Nhs3gGfDkI3fi51Ep7lmWIK2ACA0XixmzA2GBnTdTfPbV8ZZM15nZ0/sM9DlwR1x7tsuHVNusZc7OGgJP/Qk6DIRKRSiV3hSm9TMoj0LS3pSa8VtMTv2ahSsEmPtzvm3iI5PZ8cCFeA16gzHy2dP0JVnjZzs1miYcCKtdISX/yiHIHbyk39+GiWDPrA6JjyYFHWJZwdomtFoyEOkKKQjH3ZwI6q2wrpxwo2et1pGN7MZV6AOU5Im9vEcQKwQG498MncKsXXr7fnFiBkHUlDsh1ekcC7Td6EbqJ+jRw16OyitfO/QcTaExMXoxIF1+PSeQFsZakKKwYskTNIGWDfLQ1dXAQf608wsAdybms7gq6KZnAYILK5mVt7thqONl14VIF8TruIUaVSOqZoL/RpT/c3CRvZ+qga/TxS6c72dKAC5Lv2+6G33evdk1Cr8/NAffsdcjwLmOMhtEvs4yEsF2GsASlOWbMpleQ"
+            }
+        }
+    ],
+    "constraints": {
+        "yarn": "3.2.0"
+    }
 }
